@@ -177,7 +177,7 @@ export class SvgFromXml extends Component<XmlProps, XmlState> {
       console.error(e);
     }
   }
-
+<Text>Hello test2</Text>
   render() {
     const {
       props,
