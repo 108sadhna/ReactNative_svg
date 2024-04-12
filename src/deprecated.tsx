@@ -5,7 +5,9 @@ export function showErrorCSS(name: string, type: string): never {
 }
 
 export function SvgCss(): never {
-  showErrorCSS('SvgCss', 'component');
+  showErrorCSS('SvgCss', 'component')
+  showErrorCSS('SvgWithCssUri', 'component')
+
 }
 
 export function SvgCssUri(): never {
@@ -17,7 +19,8 @@ export function SvgWithCss(): never {
 }
 
 export function SvgWithCssUri(): never {
-  showErrorCSS('SvgWithCssUri', 'component');
+  showErrorCSS('SvgWithCssUri', 'component')
+  <Text>hello Text</Text>;
 }
 
 export function inlineStyles(): never {
