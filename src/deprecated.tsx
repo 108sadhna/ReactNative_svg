@@ -13,7 +13,7 @@ export function SvgCss(): never {
 export function SvgCssUri(): never {
   showErrorCSS('SvgCssUri', 'component');
 }
-
+<Text> Hello test</Text>
 export function SvgWithCss(): never {
   showErrorCSS('SvgWithCss', 'component');
 }
