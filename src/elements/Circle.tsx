@@ -17,10 +17,9 @@ export default class Circle extends Shape<CircleProps> {
 
   static defaultProps = {
     cx: 0,
-    cy:?: 0,
-
-
+    cy: 0,
     r: 0,
+    
   };
 
   render() {
